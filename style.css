@@ -8,7 +8,7 @@ body{
   font-family: "Raleway", sans-serif;
 }
 
-/* shared color */
+/* !shared style */
 
 .primary-color{
   color: #4E47FF;
@@ -17,25 +17,10 @@ body{
 .primary-color2{
   color: #252432;
 }
-
-header{
-  width: 100%;
-  min-height: 698px;
-  
-  background-image: url(Assets/Hero-bg.png);
+.primary-color3{
+  color: rgb(37, 36, 50,50%);
 }
 
-nav{
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 150px 158px 150px ;
-}
-
-nav h1{
- font-size: 34px;
-  font-family: "Inter", sans-serif;
-}
- 
 .btn{
   padding: 12px 36px;
   color: white;
@@ -46,6 +31,29 @@ nav h1{
   border: none;
   cursor: pointer;
 }
+header{
+  width: 100%;
+  min-height: 698px;
+  
+  background-image: url(Assets/Hero-bg.png);
+}
+
+/*  ?  navbar starts here  */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px 158px 150px ; /*use it*/
+}
+
+nav h1{
+ font-size: 34px;
+  font-family: "Inter", sans-serif;
+}
+ /*  ?  navbar ends here  */
+
+ /*  ?  banner starts here  */
+
 .banner{
   margin: 0 150px;
   text-align: center;
@@ -55,4 +63,71 @@ nav h1{
   font-size: 65px;
   font-weight: bold;
   padding-bottom: 40px;
+}
+
+/*  ?  banner ends here  */
+
+main{
+  margin: 116px 150px 158px 150px ;;
+}
+
+
+/*  ?  action starts here  */
+
+
+
+.action{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 116px ;
+  
+}
+
+.action-details{
+  text-align: left;
+  /* border: 1px solid red; */
+  padding: 65px 0;
+}
+.action-heading{
+  font-size: 42px ;
+  font-weight: bold;
+  padding-bottom: 23px;
+}
+
+.action-para{
+  font-size: 24px;
+  padding-bottom: 23px;
+}
+
+.action-img{
+  border-radius: 48px ;
+  border: none;
+}
+
+/*  ?  action ends here  */
+
+/* ?productivity starts here */
+
+.productive{
+  background-color:rgb(78, 71, 255 ,10%) ;
+  border-radius: 10px ;
+  padding: 50px 140px;
+  text-align: center;
+}
+
+.productive-heading {
+  font-size: 38px ;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.productivity-details{
+  display: flex;
+  gap: 167px;
+  font-family: "Inter", sans-serif;
+}
+
+.all-boxes{
+  font-size: 80px ;
+  font-weight: bold;
 }
