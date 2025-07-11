@@ -37,7 +37,7 @@ body{
   cursor: pointer;
 }
 
-main,footer{
+main{
   margin: 116px 150px 158px 150px ;;
 }
 
@@ -219,6 +219,7 @@ nav h1{
  /* ?heding form starts here */
 
  .heading-form{
+  margin-top: 116px;
   /* border: 1px solid red ; */
   display: flex;
   justify-content: space-between;
@@ -231,7 +232,7 @@ nav h1{
   font-size: 97px;
  }
 
- footer form{
+ main form{
   height: 490px;
   width: 40%;
   display: flex;
