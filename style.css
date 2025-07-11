@@ -6,7 +6,7 @@
 
 body{
   font-family: "Raleway", sans-serif;
-  background-color: #F2EDED;
+  background-color: #D6DDED
 }
 
 /* !shared style */
@@ -214,3 +214,43 @@ nav h1{
  border-radius: 48px;
 }
  /* ? focus content ends here  */
+
+
+ /* ?heding form starts here */
+
+ .heading-form{
+  /* border: 1px solid red ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .heading-touch{
+  text-align: center;
+  font-weight: bold;
+  font-size: 97px;
+ }
+
+ footer form{
+  height: 490px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+
+ input {
+  width: 100%;
+  height:70px ;
+  border: none;
+  border-radius: 10px;
+  padding: 32px 20px;
+  border: 0.5px solid rgba(29, 28, 28, 0.131);
+ }
+
+ textarea {
+  border: none;
+  border-radius: 10px;
+  padding: 32px 20px;
+  border: 0.5px solid rgba(29, 28, 28, 0.131);
+ }
