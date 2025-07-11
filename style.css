@@ -6,7 +6,8 @@
 
 body{
   font-family: "Raleway", sans-serif;
-  background-color: #D6DDED
+  background-color: #D6DDED;
+  width: 100%;
 }
 
 /* !shared style */
@@ -165,6 +166,7 @@ nav h1{
 
 .reviews-all{
   display: flex;
+  justify-content: center;
   gap: 20px;
 
 }
