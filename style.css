@@ -255,3 +255,45 @@ nav h1{
   padding: 32px 20px;
   border: 0.5px solid rgba(29, 28, 28, 0.131);
  }
+
+ /* ?heading form ends here */
+
+ /* ?footer starts here */
+
+ footer{
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 105px 0;
+  background-color: white;
+ }
+
+ .footer-heading {
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+ 
+ }
+
+ .footer-pera{
+  padding-bottom: 20px;
+ }
+
+ footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+ }
+ 
+
+ footer ul li{
+  list-style: none;
+  
+  
+  
+}
+
+footer ul li a{
+  text-decoration: none;
+  
+}
+
+/* ?footer ends here */
