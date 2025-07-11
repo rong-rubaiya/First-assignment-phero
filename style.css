@@ -271,7 +271,9 @@ nav h1{
   font-size: 20px;
   font-family: "Inter", sans-serif;
  }
-
+ placeholder{
+  font-family: "Inter", sans-serif;
+ }
  /* ?heading form ends here */
 
  /* ?footer starts here */
